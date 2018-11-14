@@ -1,0 +1,16 @@
+<root>
+    <src_db type="sqlserver">
+        <url>jdbc:sybase:Tds:10.189.0.229:4102/csp</url>
+        <port>1433</port>
+        <user>csp_sa</user>
+        <pwd>1qaz@WSX</pwd>
+    </src_db>
+    
+    <dst_db type="sqlserver">
+        <url>jdbc:mysql://10.189.0.187:8066/HBDB</url>
+        <port>1433</port>
+        <user>root</user>
+        <pwd>HBSinopec@13579</pwd>
+    </dst_db>
+    <clear_before_days>4</clear_before_days>
+</root>

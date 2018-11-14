@@ -1,0 +1,22 @@
+<root>
+    <src_db type="sqlserver">
+        <url>jdbc:sybase:Tds:39.104.67.224:18066/csp</url>
+        <port>18066</port>
+        <user>csp_sa</user>
+        <pwd>1qaz@WSX</pwd>
+    </src_db>
+    
+    <!--<dst_db type="sqlserver">
+        <url>jdbc:mysql://127.0.0.1:3306/csp?socketTimeout=60</url>
+        <port>1433</port>
+        <user>root</user>
+        <pwd>123456</pwd>
+    </dst_db>-->
+    <dst_db type="sqlserver">
+        <url>jdbc:mysql://39.104.67.224:33060/hbdb_data</url>
+        <port>33060</port>
+        <user>root</user>
+        <pwd>HBSinopec@13579</pwd>
+    </dst_db>
+    <clear_before_days>30</clear_before_days>
+</root>
